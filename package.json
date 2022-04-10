@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "description": "用NodeJS練習開發簡易網站\r ===\r * 練習html&Bootstrap應用\r * 學習前後端如何溝通\r * 利用POST&GET達成切換語言功能\r * 實際操作Git上傳到Github",
   "main": "index.js",
+  "engines":{
+    "node": "16.14.2"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "linebot": "^1.6.1"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
